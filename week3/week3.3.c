@@ -5,14 +5,12 @@
 
 int main(int argc, char *argv[]) {
 	
-	float a, b;
-	
-	printf("enter two integers:");
-	scanf("%f", "%f",&a,&b);
-	
-	printf("%f/%f= %f\n",a,b,a/b);
-	
+	char a;
 
+	printf("enter a character: ");
+	scanf("%c",&a);
+	
+	printf("the next character of %c(%i) is %c(%i)",a,a,a+1,a+1);
 	
 	return 0;
 }
