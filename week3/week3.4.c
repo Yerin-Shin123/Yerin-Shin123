@@ -5,12 +5,13 @@
 
 int main(int argc, char *argv[]) {
 	
-	float a, b;
+	float num1;
+	float num2;
 	
 	printf("enter two integers:");
-	scanf("%f", "%f",&a,&b);
+	scanf("%f,%f",&num1,&num2);
 	
-	printf("%f/%f= %f\n",a,b,a/b);
+	printf("%f/%f= %f",num1,num2,num1/num2);
 	
 
 	
